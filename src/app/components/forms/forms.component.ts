@@ -1111,7 +1111,7 @@ export class FormsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  eventHandlers(evt: ComponentEvent) {
+  eventHandlers(evt: ComponentEvent): void {
     console.log(evt);
   }
 

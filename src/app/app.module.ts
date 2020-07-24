@@ -9,13 +9,15 @@ import { AppComponent } from './app.component';
 import { FormsComponent } from './components/forms/forms.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { DropdownsComponent } from './components/dropdowns/dropdowns.component';
+import { RegFormComponent } from './components/reg-form/reg-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormsComponent,
     ContactUsComponent,
-    DropdownsComponent
+    DropdownsComponent,
+    RegFormComponent
   ],
   imports: [
     BrowserModule,

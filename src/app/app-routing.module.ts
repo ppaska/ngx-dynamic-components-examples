@@ -4,6 +4,7 @@ import { FormsComponent } from './components/forms/forms.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { DropdownsComponent } from './components/dropdowns/dropdowns.component';
 import { RegFormComponent } from './components/reg-form/reg-form.component';
+import { DropdownsJsonComponent } from './components/dropdowns-json/dropdowns-json.component';
 
 
 const routes: Routes = [{
@@ -19,6 +20,9 @@ const routes: Routes = [{
 }, {
   path: 'dropdowns',
   component: DropdownsComponent
+}, {
+  path: 'dropdowns-json',
+  component: DropdownsJsonComponent
 }, {
   path: 'registration',
   component: RegFormComponent

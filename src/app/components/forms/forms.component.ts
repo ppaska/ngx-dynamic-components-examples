@@ -1112,7 +1112,9 @@ export class FormsComponent implements OnInit {
   }
 
   eventHandlers(evt: ComponentEvent): void {
-    console.log(evt);
+    if (evt.eventName === 'initHandler') {
+      console.log('onInit', evt);
+    }
   }
 
 }

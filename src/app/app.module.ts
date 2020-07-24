@@ -10,6 +10,7 @@ import { FormsComponent } from './components/forms/forms.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { DropdownsComponent } from './components/dropdowns/dropdowns.component';
 import { RegFormComponent } from './components/reg-form/reg-form.component';
+import { DropdownsJsonComponent } from './components/dropdowns-json/dropdowns-json.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { RegFormComponent } from './components/reg-form/reg-form.component';
     FormsComponent,
     ContactUsComponent,
     DropdownsComponent,
-    RegFormComponent
+    RegFormComponent,
+    DropdownsJsonComponent
   ],
   imports: [
     BrowserModule,
